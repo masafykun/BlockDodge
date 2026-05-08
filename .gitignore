@@ -21,6 +21,15 @@
 # JetBrains
 .idea/
 
+# MCP auth token (contains secrets)
+.mcp.json
+
+# Claude Code local settings
+.claude/
+
+# uloop outputs (local tool outputs)
+.uloop/
+
 # Build outputs
 *.apk
 *.aab
